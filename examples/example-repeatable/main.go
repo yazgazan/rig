@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Pimmr/rig"
+	"github.com/yazgazan/rig"
 )
 
 type date time.Time

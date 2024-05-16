@@ -4,7 +4,7 @@ import (
 	"flag"
 	"reflect"
 
-	"github.com/Pimmr/rig/validators"
+	"github.com/yazgazan/rig/validators"
 )
 
 type varValidators struct {

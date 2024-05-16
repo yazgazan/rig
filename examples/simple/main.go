@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Pimmr/rig"
-	"github.com/Pimmr/rig/validators"
+	"github.com/yazgazan/rig"
+	"github.com/yazgazan/rig/validators"
 )
 
 type countTheDotsValue uint

@@ -4,7 +4,7 @@ import (
 	"flag"
 	"strconv"
 
-	"github.com/Pimmr/rig/validators"
+	"github.com/yazgazan/rig/validators"
 )
 
 type uintValidators struct {

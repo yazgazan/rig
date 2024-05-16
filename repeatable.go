@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Pimmr/rig/validators"
 	"github.com/pkg/errors"
+	"github.com/yazgazan/rig/validators"
 )
 
 // A Generator is a function that returns new values of a type implementing flag.Value.

@@ -1,4 +1,4 @@
-module github.com/Pimmr/rig
+module github.com/yazgazan/rig
 
 go 1.13
 

@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/Pimmr/rig"
-	"github.com/Pimmr/rig/validators"
+	"github.com/yazgazan/rig"
+	"github.com/yazgazan/rig/validators"
 )
 
 func palindrome(s string) error {

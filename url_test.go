@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/Pimmr/rig/validators"
 	"github.com/pkg/errors"
+	"github.com/yazgazan/rig/validators"
 )
 
 func urlMustParse(s string) *url.URL {

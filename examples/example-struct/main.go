@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/Pimmr/rig"
+	"github.com/yazgazan/rig"
 )
 
 type bar struct {

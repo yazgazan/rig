@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Pimmr/rig/validators"
 	"github.com/pkg/errors"
+	"github.com/yazgazan/rig/validators"
 )
 
 func TestDurationValue(t *testing.T) {

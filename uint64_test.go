@@ -3,8 +3,8 @@ package rig
 import (
 	"testing"
 
-	"github.com/Pimmr/rig/validators"
 	"github.com/pkg/errors"
+	"github.com/yazgazan/rig/validators"
 )
 
 func TestUint64Value(t *testing.T) {

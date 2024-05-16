@@ -4,7 +4,7 @@ import (
 	"flag"
 	"net/url"
 
-	"github.com/Pimmr/rig/validators"
+	"github.com/yazgazan/rig/validators"
 )
 
 type urlValidators struct {

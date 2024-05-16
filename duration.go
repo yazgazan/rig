@@ -4,7 +4,7 @@ import (
 	"flag"
 	"time"
 
-	"github.com/Pimmr/rig/validators"
+	"github.com/yazgazan/rig/validators"
 )
 
 type durationValidators struct {

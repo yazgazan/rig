@@ -3,7 +3,7 @@ package rig
 import (
 	"flag"
 
-	"github.com/Pimmr/rig/validators"
+	"github.com/yazgazan/rig/validators"
 )
 
 type stringValidators struct {
