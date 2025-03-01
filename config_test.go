@@ -2,6 +2,7 @@ package rig
 
 import (
 	"bytes"
+	"errors"
 	"flag"
 	"fmt"
 	"io/ioutil"
@@ -12,7 +13,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/yazgazan/rig/validators"
 )
 
@@ -28,8 +28,9 @@ func commandLineFlags(t *testing.T) []*Flag {
 	t.Helper()
 	flags := []*Flag{}
 	flag.CommandLine.VisitAll(func(f *flag.Flag) {
-		s := new(string)
-		flags = append(flags, String(s, f.Name, "", ""))
+		var s string
+
+		flags = append(flags, String(&s, f.Name, "", ""))
 	})
 
 	return flags

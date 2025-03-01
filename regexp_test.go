@@ -1,11 +1,11 @@
 package rig
 
 import (
+	"errors"
 	"fmt"
 	"regexp"
 	"testing"
 
-	"github.com/pkg/errors"
 	"github.com/yazgazan/rig/validators"
 )
 

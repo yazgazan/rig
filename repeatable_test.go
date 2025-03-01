@@ -1,13 +1,13 @@
 package rig
 
 import (
+	"errors"
 	"net/url"
 	"reflect"
 	"regexp"
 	"strings"
 	"testing"
 
-	"github.com/pkg/errors"
 	"github.com/yazgazan/rig/validators"
 )
 

@@ -1,9 +1,9 @@
 package rig
 
 import (
+	"errors"
 	"testing"
 
-	"github.com/pkg/errors"
 	"github.com/yazgazan/rig/validators"
 )
 
